@@ -1,6 +1,8 @@
-# Turbo Code Minimum Hamming Distance Estimator
+# Decoder-Free-Turbo-mHD_Estimator
 
 A decoder-independent, computationally efficient tool for estimating the **minimum Hamming distance (mHD)** of LTE Turbo Codes using the Quadratic Permutation Polynomial (QPP) interleaver.
+
+**Code:** https://github.com/bazzal99/Decoder-Free-Turbo-mHD_Estimator
 
 Supports both termination modes defined in **3GPP TS 36.212**:
 - **Zero-Termination (ZT)** — default LTE mode
@@ -25,7 +27,7 @@ This implementation uses a **decoder-free approach** based on identifying **Retu
 ## Repository structure
 
 ```
-turbo-mhd-estimator/
+Decoder-Free-Turbo-mHD_Estimator/
 ├── turbo_mhd.c     — main() driver + top-level estimation loop (min_distance_CHOOSE)
 ├── rtz_search.c/h  — graph-girth RTZ search kernels (ZT and TB variants)
 ├── distance.c/h    — codeword distance computation + RTZ detection (is_RTZ)
@@ -130,6 +132,8 @@ MIT License. See [LICENSE](LICENSE).
 ---
 
 ## Citation
+
+If you use this code in your research, please cite:
 
 ```bibtex
 @inproceedings{bazzal2025turbo,
