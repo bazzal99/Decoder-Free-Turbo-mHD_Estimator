@@ -20,7 +20,7 @@ This implementation uses a **decoder-free approach** based on identifying **Retu
 
 > M. Bazzal, J. Nadal, S. Weithoffer, C. Abdel Nour, C. Douillard,  
 > *"Efficient decoder-free minimum distance estimation for concatenated convolutional codes,"*  
-> IEEE Vehicular Technology Conference (VTC), Oslo, July 2025.
+> 2025 IEEE 101st Vehicular Technology Conference (VTC2025-Spring), Oslo, Norway, 2025, pp. 1-7.
 
 ---
 
