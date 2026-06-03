@@ -1,0 +1,15 @@
+# Compiled binary
+turbo_mhd
+main.exe
+*.o
+
+# Output files (generated at runtime)
+output_*.txt
+results.txt
+Number_of_Operations.txt
+temp_dedup.txt
+
+# Editor artifacts
+*.swp
+*~
+.DS_Store
